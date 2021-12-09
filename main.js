@@ -24,4 +24,5 @@ function updateClock() {
     clock.innerHTML = `${hours}:${minutes}:${seconds} ${am_pm}`
 }
 
-updateClock()
+// calling the function every second
+setInterval(updateClock, 1000)
