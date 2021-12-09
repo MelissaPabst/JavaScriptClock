@@ -21,7 +21,7 @@ function updateClock() {
     minutes = minutes < 10 ? '0' + minutes : minutes
     seconds = seconds < 10 ? '0' + seconds : seconds
 
-    console.log(hours, minutes, seconds, am_pm);
+    clock.innerHTML = `${hours}:${minutes}:${seconds} ${am_pm}`
 }
 
 updateClock()
