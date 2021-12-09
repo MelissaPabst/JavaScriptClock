@@ -1,2 +1,2 @@
 # JavaScriptClock
-An easy JS clock to refresh on JS
+An easy JS clock to refresh on JS/HTML/CSS
